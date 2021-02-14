@@ -1,0 +1,151 @@
+
+
+
+
+
+
+
+
+.navbar{
+
+background-color: #28333F;
+}
+
+
+ .navbar-nav a{
+font-family: 'Poppins', sans-serif;
+   font-size: 18px;
+   text-transform: uppercase;
+   font-weight: bold;
+   position: relative;
+
+
+ }
+ .navbar-nav a:before{
+   content: " ";
+   position: absolute;
+   top: 100%;
+   left: 0;
+   width: 0%;
+   height: 2px;
+   border-bottom: 2px solid #ff3300;
+   transition: all 0.4s linear;
+ }
+ .navbar-nav a:hover::before{
+ width: 100%;
+ }
+
+
+ .navbar-light .container-fluid .navbar-nav .active>.nav-link, .navbar-light
+.navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+   color: #FF5733 ;
+}
+
+.navbar-light .container-fluid .navbar-nav .nav-link{
+  color: #fff ;
+}
+.navbar-nav{
+  text-align:center;
+}
+.nav-link{
+  padding: .2rem 1rem;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav
+.nav-link:hover{
+  color: #ff3300 !important;
+}
+
+/* Footer */
+#footer{
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+#footer .footer{
+	min-height: 200px;
+	flex-direction: column;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+#footer h2{
+	color: white;
+	font-weight: 500;
+	font-size: 1.8rem;
+	letter-spacing: .1rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#footer .social-icon{
+	display: flex;
+	margin-bottom: 30px;
+}
+#footer .social-item{
+	height: 50px;
+	width: 50px;
+	margin: 0 5px;
+}
+#footer .social-item img{
+	filter: grayscale(1);
+	transition: .3s ease filter;
+}
+#footer .social-item:hover img{
+	filter: grayscale(0);
+}
+#footer p{
+	color: white;
+	font-size: 1.3rem;
+}
+/* End Footer */
+
+
+
+@media only screen and (max-width: 768px){
+.navbar-collapse{
+    background: rgba(0, 0, 0, 0.5);
+  }
+.navbar .container-fluid .navbar-toggler{
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: #fff;
+    position: righ;
+  }
+#navbar-brand{
+    font-size: 18px;
+    padding: 15px 15px;
+  }
+
+
+  .carousel-inner .carousel-caption a{
+   font-size: 15px;
+  }
+  .carousel-inner .carousel-caption a{
+   text-size: 15px;
+    padding: 5px 15px;
+
+  }
+}
+
+@media only screen and (min-width: 769px){
+  .navbar .container-fluid .navbar-toggler{
+      padding: 1px 5px;
+      font-size: 18px;
+      line-height: 0.3;
+      background: #fff;
+      position: righ;
+    }
+  #navbar-brand{
+      font-size: 20px;
+      padding: 15px 15px;
+    }
+
+
+    .carousel-inner .carousel-caption a{
+     font-size: 15px;
+    }
+    .carousel-inner .carousel-caption a{
+     text-size: 15px;
+      padding: 5px 15px;
+
+    }
+
+}

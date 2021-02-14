@@ -1,0 +1,40 @@
+.sidbar{
+ background: rgba(0, 0, 0, 0.8);
+  height: 100vh;
+}
+.Nav-brand{
+  border-bottom: 1px groove #fff;
+
+}
+.sidbar a{
+  text-decoration: none;
+  transition: 0.5s;
+  padding-left: 13px 5px;
+
+}
+ul li:hover{
+  background-color: tomato;
+  transition: 0.5s;
+
+}
+.nav-bar{
+background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 30px;
+  padding: 30px;
+  line-height: 0px;
+  position: top;
+
+}
+.btn{
+margin-top: -20px;
+
+}
+.btn:hover{
+  background-color: tomato;
+}
+
+.active{
+  background-color: #4db8ff;
+  border-radius: 5px;
+}
